@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj": {}
+    "C:\\Users\\adisa\\Source\\Repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj": {
+    "C:\\Users\\adisa\\Source\\Repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj",
+        "projectUniqueName": "C:\\Users\\adisa\\Source\\Repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj",
         "projectName": "Kupid",
-        "projectPath": "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj",
-        "packagesPath": "C:\\Users\\Benis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\Kupid\\obj\\",
+        "projectPath": "C:\\Users\\adisa\\Source\\Repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj",
+        "packagesPath": "C:\\Users\\adisa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adisa\\Source\\Repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Benis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
