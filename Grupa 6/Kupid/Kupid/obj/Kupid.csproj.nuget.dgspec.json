@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adisa\\Source\\Repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj": {}
+    "C:\\Users\\adisa\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adisa\\Source\\Repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj": {
+    "C:\\Users\\adisa\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adisa\\Source\\Repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj",
+        "projectUniqueName": "C:\\Users\\adisa\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj",
         "projectName": "Kupid",
-        "projectPath": "C:\\Users\\adisa\\Source\\Repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj",
+        "projectPath": "C:\\Users\\adisa\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj",
         "packagesPath": "C:\\Users\\adisa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adisa\\Source\\Repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\obj\\",
+        "outputPath": "C:\\Users\\adisa\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\\Grupa 6\\Kupid\\Kupid\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
