@@ -95,6 +95,18 @@ namespace Kupid
                 razgovori.Add(new Chat(korisnici[0], korisnici[1]));
         }
 
+        public void DodavanjeRazgovora2(List<Korisnik> korisnici, bool grupniChat)
+        {
+            bool nijeGrupniSaViseOddvijeOsobe = !grupniChat && korisnici.Count > 2;
+            if (korisnici == null || korisnici.Count < 2 || nijeGrupniSaViseOddvijeOsobe)
+                throw new ArgumentException("Nemoguće dodati razgovor!");
+
+            if (grupniChat)
+                razgovori.Add(new GrupniChat(korisnici));
+
+            else
+                razgovori.Add(new Chat(korisnici[0], korisnici[1]));
+        }
         /// <summary>
         /// Metoda u kojoj se vrši pronalazak svih poruka koje u sebi sadrže traženi sadržaj.
         /// Ukoliko je sadržaj prazan ili ne postoji nijedan chat, baca se izuzetak.
