@@ -160,6 +160,31 @@ namespace Kupid
                 throw new ArgumentException("Nemoguće spojiti korisnike!");
         }
 
+        public void SpajanjeKorisnika2()
+        {
+            bool stvorenRazgovor = false;
+            foreach (Korisnik prvi in korisnici)
+            {
+                foreach (Korisnik drugi in korisnici)
+                {
+                    if ((prvi.Ime == drugi.Ime) || 
+                        (razgovori.Find(r => r.Korisnici.Find(k => k.Ime == prvi.Ime) != null && 
+                        r.Korisnici.Find(k => k.Ime == drugi.Ime) != null) != null))
+                        continue;
+
+                    if (prvi.Lokacija == drugi.ZeljenaLokacija || prvi.ZeljenaLokacija == drugi.Lokacija
+                        || prvi.Godine == drugi.Godine)
+                    {
+                        stvorenRazgovor = true;
+                        Chat noviChat = new Chat(prvi, drugi);
+                        razgovori.Add(noviChat);
+                    }
+                }
+            }
+            if (!stvorenRazgovor)
+                throw new ArgumentException("Nemoguće spojiti korisnike!");
+        }
+
         #endregion
     }
 }
