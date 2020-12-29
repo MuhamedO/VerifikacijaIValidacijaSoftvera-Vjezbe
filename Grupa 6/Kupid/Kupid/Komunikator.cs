@@ -73,7 +73,10 @@ namespace Kupid
                     foreach (Korisnik korisnik in c.Korisnici)
                     {
                         if (korisnik.Ime == k.Ime)
+                        { 
                             postoji = true;
+                            break;
+                        }
                     }
                     if (postoji)
                         razgovoriZaBrisanje.Add(c);

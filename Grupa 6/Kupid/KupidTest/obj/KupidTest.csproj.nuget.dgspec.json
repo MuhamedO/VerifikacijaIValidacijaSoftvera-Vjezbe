@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\KupidTest\\KupidTest.csproj": {}
+    "C:\\Users\\Korisnik\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe5\\Grupa 6\\Kupid\\KupidTest\\KupidTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\KupidTest\\KupidTest.csproj": {
+    "C:\\Users\\Korisnik\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe5\\Grupa 6\\Kupid\\KupidTest\\KupidTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\KupidTest\\KupidTest.csproj",
+        "projectUniqueName": "C:\\Users\\Korisnik\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe5\\Grupa 6\\Kupid\\KupidTest\\KupidTest.csproj",
         "projectName": "KupidTest",
-        "projectPath": "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\KupidTest\\KupidTest.csproj",
-        "packagesPath": "C:\\Users\\Benis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\KupidTest\\obj\\",
+        "projectPath": "C:\\Users\\Korisnik\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe5\\Grupa 6\\Kupid\\KupidTest\\KupidTest.csproj",
+        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Korisnik\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe5\\Grupa 6\\Kupid\\KupidTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Benis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj": {
-                "projectPath": "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj"
+              "C:\\Users\\Korisnik\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe5\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe5\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj"
               }
             }
           }
@@ -78,17 +78,17 @@
         }
       }
     },
-    "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj": {
+    "C:\\Users\\Korisnik\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe5\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj",
+        "projectUniqueName": "C:\\Users\\Korisnik\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe5\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj",
         "projectName": "Kupid",
-        "projectPath": "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj",
-        "packagesPath": "C:\\Users\\Benis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Benis\\source\\repos\\VerifikacijaIValidacijaSoftvera-Zadaca3\\Grupa 6\\Kupid\\Kupid\\obj\\",
+        "projectPath": "C:\\Users\\Korisnik\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe5\\Grupa 6\\Kupid\\Kupid\\Kupid.csproj",
+        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Korisnik\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe5\\Grupa 6\\Kupid\\Kupid\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Benis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
