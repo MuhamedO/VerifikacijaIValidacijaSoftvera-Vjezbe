@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.25382262996941896" branch-rate="0.16666666666666666" lines-covered="83" lines-valid="327" branches-covered="33" branches-valid="198" complexity="224" version="0" timestamp="1609205391">
+  <sources>
+    <source>C:\Users\adisa\</source>
+  </sources>
+  <packages>
+    <package name="Kupid" line-rate="0.21359223300970873" branch-rate="0.14948453608247422" complexity="219">
+      <classes>
+        <class name="Kupid.Chat" filename="C:\Users\adisa\source\repos\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\Grupa 6\Kupid\Kupid\Chat.cs" line-rate="0" branch-rate="0" complexity="16">
+          <methods>
+            <method name="get_Korisnici" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Poruke" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_PocetakChata" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="set_PocetakChata" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="35" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_NajnovijaPoruka" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="set_NajnovijaPoruka" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="47" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="DodajNovuPoruku" signature="(...)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="84" hits="0" branch="false" />
+                <line number="85" hits="0" branch="true" condition-coverage="0% (0/6)" />
+                <line number="86" hits="0" branch="false" />
+                <line number="88" hits="0" branch="false" />
+                <line number="89" hits="0" branch="false" />
+                <line number="90" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="0" branch="false" />
+                <line number="58" hits="0" branch="false" />
+                <line number="59" hits="0" branch="false" />
+                <line number="60" hits="0" branch="false" />
+                <line number="61" hits="0" branch="false" />
+                <line number="62" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="0" branch="false" />
+                <line number="65" hits="0" branch="false" />
+                <line number="66" hits="0" branch="false" />
+                <line number="67" hits="0" branch="false" />
+                <line number="68" hits="0" branch="false" />
+                <line number="69" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="35" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="47" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="57" hits="0" branch="false" />
+            <line number="58" hits="0" branch="false" />
+            <line number="59" hits="0" branch="false" />
+            <line number="60" hits="0" branch="false" />
+            <line number="61" hits="0" branch="false" />
+            <line number="62" hits="0" branch="false" />
+            <line number="64" hits="0" branch="false" />
+            <line number="65" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="67" hits="0" branch="false" />
+            <line number="68" hits="0" branch="false" />
+            <line number="69" hits="0" branch="false" />
+            <line number="84" hits="0" branch="false" />
+            <line number="85" hits="0" branch="true" condition-coverage="0% (0/6)" />
+            <line number="86" hits="0" branch="false" />
+            <line number="88" hits="0" branch="false" />
+            <line number="89" hits="0" branch="false" />
+            <line number="90" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Kupid.GrupniChat" filename="C:\Users\adisa\source\repos\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\Grupa 6\Kupid\Kupid\GrupniChat.cs" line-rate="0" branch-rate="0" complexity="12">
+          <methods>
+            <method name="PosaljiPorukuViseKorisnika" signature="(...)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="true" condition-coverage="0% (0/8)" />
+                <line number="31" hits="0" branch="false" />
+                <line number="33" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="15" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="15" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="30" hits="0" branch="true" condition-coverage="0% (0/8)" />
+            <line number="31" hits="0" branch="false" />
+            <line number="33" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Kupid.Komunikator" filename="C:\Users\adisa\source\repos\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\Grupa 6\Kupid\Kupid\Komunikator.cs" line-rate="0.21875" branch-rate="0.14423076923076922" complexity="107">
+          <methods>
+            <method name="get_Korisnici" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="10003" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Razgovori" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="RadSaKorisnikom" signature="(...)" line-rate="0.5789473684210527" branch-rate="0.5769230769230769" complexity="26">
+              <lines>
+                <line number="43" hits="20000" branch="false" />
+                <line number="44" hits="20000" branch="true" condition-coverage="100% (2/2)" />
+                <line number="45" hits="10000" branch="false" />
+                <line number="46" hits="10000" branch="false" />
+                <line number="47" hits="100020000" branch="true" condition-coverage="100% (2/2)" />
+                <line number="48" hits="49995000" branch="true" condition-coverage="50% (1/2)" />
+                <line number="49" hits="0" branch="false" />
+                <line number="51" hits="10000" branch="true" condition-coverage="50% (1/2)" />
+                <line number="52" hits="0" branch="false" />
+                <line number="54" hits="10000" branch="false" />
+                <line number="55" hits="10000" branch="false" />
+                <line number="56" hits="10000" branch="true" condition-coverage="100% (2/2)" />
+                <line number="57" hits="10000" branch="false" />
+                <line number="58" hits="10000" branch="false" />
+                <line number="59" hits="40000" branch="true" condition-coverage="100% (2/2)" />
+                <line number="60" hits="10000" branch="true" condition-coverage="100% (2/2)" />
+                <line number="61" hits="10000" branch="false" />
+                <line number="62" hits="10000" branch="false" />
+                <line number="63" hits="10000" branch="false" />
+                <line number="67" hits="10000" branch="true" condition-coverage="50% (1/2)" />
+                <line number="68" hits="0" branch="false" />
+                <line number="70" hits="10000" branch="false" />
+                <line number="72" hits="10000" branch="false" />
+                <line number="73" hits="0" branch="true" condition-coverage="50% (1/2)" />
+                <line number="74" hits="0" branch="false" />
+                <line number="75" hits="0" branch="false" />
+                <line number="76" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="77" hits="0" branch="false" />
+                <line number="78" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="79" hits="0" branch="false" />
+                <line number="80" hits="0" branch="false" />
+                <line number="81" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="82" hits="0" branch="false" />
+                <line number="83" hits="0" branch="false" />
+                <line number="85" hits="0" branch="true" condition-coverage="50% (1/2)" />
+                <line number="86" hits="0" branch="false" />
+                <line number="87" hits="10000" branch="false" />
+                <line number="88" hits="20000" branch="false" />
+              </lines>
+            </method>
+            <method name="DodavanjeRazgovora" signature="(...)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="91" hits="0" branch="false" />
+                <line number="92" hits="0" branch="true" condition-coverage="0% (0/8)" />
+                <line number="93" hits="0" branch="false" />
+                <line number="95" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="96" hits="0" branch="false" />
+                <line number="99" hits="0" branch="false" />
+                <line number="100" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="DodavanjeRazgovora2" signature="(...)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="103" hits="0" branch="false" />
+                <line number="104" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="105" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="106" hits="0" branch="false" />
+                <line number="108" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="109" hits="0" branch="false" />
+                <line number="112" hits="0" branch="false" />
+                <line number="113" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="IzlistavanjeSvihPorukaSaSadržajem" signature="(...)" line-rate="0" branch-rate="0" complexity="12">
+              <lines>
+                <line number="121" hits="0" branch="false" />
+                <line number="122" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="123" hits="0" branch="false" />
+                <line number="125" hits="0" branch="false" />
+                <line number="126" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="127" hits="0" branch="false" />
+                <line number="128" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="129" hits="0" branch="false" />
+                <line number="131" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="132" hits="0" branch="false" />
+                <line number="133" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="134" hits="0" branch="false" />
+                <line number="135" hits="0" branch="false" />
+                <line number="136" hits="0" branch="false" />
+                <line number="138" hits="0" branch="false" />
+                <line number="139" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="DaLiJeSpajanjeUspjesno" signature="(...)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="142" hits="0" branch="false" />
+                <line number="143" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="144" hits="0" branch="false" />
+                <line number="146" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="147" hits="0" branch="false" />
+                <line number="148" hits="0" branch="false" />
+                <line number="151" hits="0" branch="false" />
+                <line number="152" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="SpajanjeKorisnika" signature="()" line-rate="0" branch-rate="0" complexity="20">
+              <lines>
+                <line number="155" hits="0" branch="false" />
+                <line number="156" hits="0" branch="false" />
+                <line number="157" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="158" hits="0" branch="false" />
+                <line number="159" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="160" hits="0" branch="false" />
+                <line number="161" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="162" hits="0" branch="false" />
+                <line number="163" hits="0" branch="true" condition-coverage="0% (0/6)" />
+                <line number="164" hits="0" branch="false" />
+                <line number="166" hits="0" branch="true" condition-coverage="0% (0/6)" />
+                <line number="167" hits="0" branch="false" />
+                <line number="168" hits="0" branch="false" />
+                <line number="169" hits="0" branch="false" />
+                <line number="170" hits="0" branch="false" />
+                <line number="171" hits="0" branch="false" />
+                <line number="172" hits="0" branch="false" />
+                <line number="173" hits="0" branch="false" />
+                <line number="174" hits="0" branch="false" />
+                <line number="175" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="176" hits="0" branch="false" />
+                <line number="177" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="SpajanjeKorisnika2" signature="()" line-rate="0" branch-rate="0" complexity="22">
+              <lines>
+                <line number="180" hits="0" branch="false" />
+                <line number="181" hits="0" branch="false" />
+                <line number="182" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="183" hits="0" branch="false" />
+                <line number="184" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="185" hits="0" branch="false" />
+                <line number="186" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="187" hits="0" branch="true" condition-coverage="0% (0/6)" />
+                <line number="188" hits="0" branch="false" />
+                <line number="189" hits="0" branch="false" />
+                <line number="191" hits="0" branch="true" condition-coverage="0% (0/6)" />
+                <line number="192" hits="0" branch="false" />
+                <line number="193" hits="0" branch="false" />
+                <line number="194" hits="0" branch="false" />
+                <line number="195" hits="0" branch="false" />
+                <line number="196" hits="0" branch="false" />
+                <line number="197" hits="0" branch="false" />
+                <line number="198" hits="0" branch="false" />
+                <line number="199" hits="0" branch="false" />
+                <line number="200" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="201" hits="0" branch="false" />
+                <line number="202" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="10003" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="43" hits="20000" branch="false" />
+            <line number="44" hits="20000" branch="true" condition-coverage="100% (2/2)" />
+            <line number="45" hits="10000" branch="false" />
+            <line number="46" hits="10000" branch="false" />
+            <line number="47" hits="100020000" branch="true" condition-coverage="100% (2/2)" />
+            <line number="48" hits="49995000" branch="true" condition-coverage="50% (1/2)" />
+            <line number="49" hits="0" branch="false" />
+            <line number="51" hits="10000" branch="true" condition-coverage="50% (1/2)" />
+            <line number="52" hits="0" branch="false" />
+            <line number="54" hits="10000" branch="false" />
+            <line number="55" hits="10000" branch="false" />
+            <line number="56" hits="10000" branch="true" condition-coverage="100% (2/2)" />
+            <line number="57" hits="10000" branch="false" />
+            <line number="58" hits="10000" branch="false" />
+            <line number="59" hits="40000" branch="true" condition-coverage="100% (2/2)" />
+            <line number="60" hits="10000" branch="true" condition-coverage="100% (2/2)" />
+            <line number="61" hits="10000" branch="false" />
+            <line number="62" hits="10000" branch="false" />
+            <line number="63" hits="10000" branch="false" />
+            <line number="67" hits="10000" branch="true" condition-coverage="50% (1/2)" />
+            <line number="68" hits="0" branch="false" />
+            <line number="70" hits="10000" branch="false" />
+            <line number="72" hits="10000" branch="false" />
+            <line number="73" hits="0" branch="true" condition-coverage="50% (1/2)" />
+            <line number="74" hits="0" branch="false" />
+            <line number="75" hits="0" branch="false" />
+            <line number="76" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="77" hits="0" branch="false" />
+            <line number="78" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="79" hits="0" branch="false" />
+            <line number="80" hits="0" branch="false" />
+            <line number="81" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="82" hits="0" branch="false" />
+            <line number="83" hits="0" branch="false" />
+            <line number="85" hits="0" branch="true" condition-coverage="50% (1/2)" />
+            <line number="86" hits="0" branch="false" />
+            <line number="87" hits="10000" branch="false" />
+            <line number="88" hits="20000" branch="false" />
+            <line number="91" hits="0" branch="false" />
+            <line number="92" hits="0" branch="true" condition-coverage="0% (0/8)" />
+            <line number="93" hits="0" branch="false" />
+            <line number="95" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="96" hits="0" branch="false" />
+            <line number="99" hits="0" branch="false" />
+            <line number="100" hits="0" branch="false" />
+            <line number="103" hits="0" branch="false" />
+            <line number="104" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="105" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="106" hits="0" branch="false" />
+            <line number="108" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="109" hits="0" branch="false" />
+            <line number="112" hits="0" branch="false" />
+            <line number="113" hits="0" branch="false" />
+            <line number="121" hits="0" branch="false" />
+            <line number="122" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="123" hits="0" branch="false" />
+            <line number="125" hits="0" branch="false" />
+            <line number="126" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="127" hits="0" branch="false" />
+            <line number="128" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="129" hits="0" branch="false" />
+            <line number="131" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="132" hits="0" branch="false" />
+            <line number="133" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="134" hits="0" branch="false" />
+            <line number="135" hits="0" branch="false" />
+            <line number="136" hits="0" branch="false" />
+            <line number="138" hits="0" branch="false" />
+            <line number="139" hits="0" branch="false" />
+            <line number="142" hits="0" branch="false" />
+            <line number="143" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="144" hits="0" branch="false" />
+            <line number="146" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="147" hits="0" branch="false" />
+            <line number="148" hits="0" branch="false" />
+            <line number="151" hits="0" branch="false" />
+            <line number="152" hits="0" branch="false" />
+            <line number="155" hits="0" branch="false" />
+            <line number="156" hits="0" branch="false" />
+            <line number="157" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="158" hits="0" branch="false" />
+            <line number="159" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="160" hits="0" branch="false" />
+            <line number="161" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="162" hits="0" branch="false" />
+            <line number="163" hits="0" branch="true" condition-coverage="0% (0/6)" />
+            <line number="164" hits="0" branch="false" />
+            <line number="166" hits="0" branch="true" condition-coverage="0% (0/6)" />
+            <line number="167" hits="0" branch="false" />
+            <line number="168" hits="0" branch="false" />
+            <line number="169" hits="0" branch="false" />
+            <line number="170" hits="0" branch="false" />
+            <line number="171" hits="0" branch="false" />
+            <line number="172" hits="0" branch="false" />
+            <line number="173" hits="0" branch="false" />
+            <line number="174" hits="0" branch="false" />
+            <line number="175" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="176" hits="0" branch="false" />
+            <line number="177" hits="0" branch="false" />
+            <line number="180" hits="0" branch="false" />
+            <line number="181" hits="0" branch="false" />
+            <line number="182" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="183" hits="0" branch="false" />
+            <line number="184" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="185" hits="0" branch="false" />
+            <line number="186" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="187" hits="0" branch="true" condition-coverage="0% (0/6)" />
+            <line number="188" hits="0" branch="false" />
+            <line number="189" hits="0" branch="false" />
+            <line number="191" hits="0" branch="true" condition-coverage="0% (0/6)" />
+            <line number="192" hits="0" branch="false" />
+            <line number="193" hits="0" branch="false" />
+            <line number="194" hits="0" branch="false" />
+            <line number="195" hits="0" branch="false" />
+            <line number="196" hits="0" branch="false" />
+            <line number="197" hits="0" branch="false" />
+            <line number="198" hits="0" branch="false" />
+            <line number="199" hits="0" branch="false" />
+            <line number="200" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="201" hits="0" branch="false" />
+            <line number="202" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Kupid.Korisnik" filename="C:\Users\adisa\source\repos\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\Grupa 6\Kupid\Kupid\Korisnik.cs" line-rate="0.5135135135135135" branch-rate="0.4375" complexity="44">
+          <methods>
+            <method name="get_Ime" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="100010000" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Ime" signature="(...)" line-rate="0.8" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="35" hits="10000" branch="false" />
+                <line number="36" hits="10000" branch="true" condition-coverage="50% (2/4)" />
+                <line number="37" hits="0" branch="false" />
+                <line number="39" hits="10000" branch="false" />
+                <line number="40" hits="10000" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Password" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Password" signature="(...)" line-rate="0.8333333333333334" branch-rate="0.5" complexity="10">
+              <lines>
+                <line number="47" hits="10000" branch="false" />
+                <line number="48" hits="10000" branch="true" condition-coverage="50% (5/10)" />
+                <line number="49" hits="10000" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="52" hits="10000" branch="false" />
+                <line number="53" hits="10000" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Lokacija" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="58" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Lokacija" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="59" hits="10000" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ZeljenaLokacija" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="set_ZeljenaLokacija" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="65" hits="10000" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Godine" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Godine" signature="(...)" line-rate="0.8" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="72" hits="10000" branch="false" />
+                <line number="73" hits="10000" branch="true" condition-coverage="50% (1/2)" />
+                <line number="74" hits="0" branch="false" />
+                <line number="76" hits="10000" branch="false" />
+                <line number="77" hits="10000" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ZeljeniMinGodina" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="82" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="set_ZeljeniMinGodina" signature="(...)" line-rate="0.8" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="84" hits="10000" branch="false" />
+                <line number="85" hits="10000" branch="true" condition-coverage="50% (2/4)" />
+                <line number="86" hits="0" branch="false" />
+                <line number="88" hits="10000" branch="false" />
+                <line number="89" hits="10000" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ZeljeniMaxGodina" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="94" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="set_ZeljeniMaxGodina" signature="(...)" line-rate="0.8" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="96" hits="10000" branch="false" />
+                <line number="97" hits="10000" branch="true" condition-coverage="50% (2/4)" />
+                <line number="98" hits="0" branch="false" />
+                <line number="100" hits="10000" branch="false" />
+                <line number="101" hits="10000" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Razvod" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="106" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Razvod" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="107" hits="10000" branch="false" />
+              </lines>
+            </method>
+            <method name="PromjenaParametara" signature="(...)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="153" hits="0" branch="false" />
+                <line number="154" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="155" hits="0" branch="false" />
+                <line number="156" hits="0" branch="false" />
+                <line number="157" hits="0" branch="false" />
+                <line number="158" hits="0" branch="false" />
+                <line number="159" hits="0" branch="false" />
+                <line number="161" hits="0" branch="false" />
+                <line number="162" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="163" hits="0" branch="false" />
+                <line number="164" hits="0" branch="false" />
+                <line number="165" hits="0" branch="false" />
+                <line number="167" hits="0" branch="false" />
+                <line number="168" hits="0" branch="false" />
+                <line number="169" hits="0" branch="false" />
+                <line number="170" hits="0" branch="false" />
+                <line number="171" hits="0" branch="false" />
+                <line number="172" hits="0" branch="false" />
+                <line number="173" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0.8666666666666667" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="114" hits="10000" branch="false" />
+                <line number="115" hits="10000" branch="false" />
+                <line number="116" hits="10000" branch="false" />
+                <line number="117" hits="10000" branch="false" />
+                <line number="118" hits="10000" branch="false" />
+                <line number="119" hits="10000" branch="false" />
+                <line number="120" hits="10000" branch="false" />
+                <line number="122" hits="10000" branch="true" condition-coverage="50% (1/2)" />
+                <line number="123" hits="10000" branch="false" />
+                <line number="125" hits="0" branch="false" />
+                <line number="127" hits="10000" branch="true" condition-coverage="50% (1/2)" />
+                <line number="128" hits="10000" branch="false" />
+                <line number="130" hits="0" branch="false" />
+                <line number="132" hits="10000" branch="false" />
+                <line number="133" hits="10000" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="135" hits="0" branch="false" />
+                <line number="136" hits="0" branch="false" />
+                <line number="138" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="33" hits="100010000" branch="false" />
+            <line number="35" hits="10000" branch="false" />
+            <line number="36" hits="10000" branch="true" condition-coverage="50% (2/4)" />
+            <line number="37" hits="0" branch="false" />
+            <line number="39" hits="10000" branch="false" />
+            <line number="40" hits="10000" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="47" hits="10000" branch="false" />
+            <line number="48" hits="10000" branch="true" condition-coverage="50% (5/10)" />
+            <line number="49" hits="10000" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="52" hits="10000" branch="false" />
+            <line number="53" hits="10000" branch="false" />
+            <line number="58" hits="0" branch="false" />
+            <line number="59" hits="10000" branch="false" />
+            <line number="64" hits="0" branch="false" />
+            <line number="65" hits="10000" branch="false" />
+            <line number="70" hits="0" branch="false" />
+            <line number="72" hits="10000" branch="false" />
+            <line number="73" hits="10000" branch="true" condition-coverage="50% (1/2)" />
+            <line number="74" hits="0" branch="false" />
+            <line number="76" hits="10000" branch="false" />
+            <line number="77" hits="10000" branch="false" />
+            <line number="82" hits="0" branch="false" />
+            <line number="84" hits="10000" branch="false" />
+            <line number="85" hits="10000" branch="true" condition-coverage="50% (2/4)" />
+            <line number="86" hits="0" branch="false" />
+            <line number="88" hits="10000" branch="false" />
+            <line number="89" hits="10000" branch="false" />
+            <line number="94" hits="0" branch="false" />
+            <line number="96" hits="10000" branch="false" />
+            <line number="97" hits="10000" branch="true" condition-coverage="50% (2/4)" />
+            <line number="98" hits="0" branch="false" />
+            <line number="100" hits="10000" branch="false" />
+            <line number="101" hits="10000" branch="false" />
+            <line number="106" hits="0" branch="false" />
+            <line number="107" hits="10000" branch="false" />
+            <line number="114" hits="10000" branch="false" />
+            <line number="115" hits="10000" branch="false" />
+            <line number="116" hits="10000" branch="false" />
+            <line number="117" hits="10000" branch="false" />
+            <line number="118" hits="10000" branch="false" />
+            <line number="119" hits="10000" branch="false" />
+            <line number="120" hits="10000" branch="false" />
+            <line number="122" hits="10000" branch="true" condition-coverage="50% (1/2)" />
+            <line number="123" hits="10000" branch="false" />
+            <line number="125" hits="0" branch="false" />
+            <line number="127" hits="10000" branch="true" condition-coverage="50% (1/2)" />
+            <line number="128" hits="10000" branch="false" />
+            <line number="130" hits="0" branch="false" />
+            <line number="132" hits="10000" branch="false" />
+            <line number="133" hits="10000" branch="false" />
+            <line number="135" hits="0" branch="false" />
+            <line number="136" hits="0" branch="false" />
+            <line number="138" hits="0" branch="false" />
+            <line number="153" hits="0" branch="false" />
+            <line number="154" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="155" hits="0" branch="false" />
+            <line number="156" hits="0" branch="false" />
+            <line number="157" hits="0" branch="false" />
+            <line number="158" hits="0" branch="false" />
+            <line number="159" hits="0" branch="false" />
+            <line number="161" hits="0" branch="false" />
+            <line number="162" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="163" hits="0" branch="false" />
+            <line number="164" hits="0" branch="false" />
+            <line number="165" hits="0" branch="false" />
+            <line number="167" hits="0" branch="false" />
+            <line number="168" hits="0" branch="false" />
+            <line number="169" hits="0" branch="false" />
+            <line number="170" hits="0" branch="false" />
+            <line number="171" hits="0" branch="false" />
+            <line number="172" hits="0" branch="false" />
+            <line number="173" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Kupid.Poruka" filename="C:\Users\adisa\source\repos\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\Grupa 6\Kupid\Kupid\Poruka.cs" line-rate="0" branch-rate="0" complexity="39">
+          <methods>
+            <method name="get_Posiljalac" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Primalac" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Sadrzaj" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Sadrzaj" signature="(...)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="30" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="IzračunajKompatibilnostKorisnika" signature="()" line-rate="0" branch-rate="0" complexity="14">
+              <lines>
+                <line number="63" hits="0" branch="false" />
+                <line number="64" hits="0" branch="false" />
+                <line number="65" hits="0" branch="false" />
+                <line number="66" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="67" hits="0" branch="false" />
+                <line number="68" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="69" hits="0" branch="false" />
+                <line number="70" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="71" hits="0" branch="false" />
+                <line number="72" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="73" hits="0" branch="false" />
+                <line number="75" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="76" hits="0" branch="false" />
+                <line number="78" hits="0" branch="false" />
+                <line number="79" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="80" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="81" hits="0" branch="false" />
+                <line number="82" hits="0" branch="false" />
+                <line number="84" hits="0" branch="false" />
+                <line number="85" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="IzračunajKompatibilnostKorisnika2" signature="()" line-rate="0" branch-rate="0" complexity="14">
+              <lines>
+                <line number="88" hits="0" branch="false" />
+                <line number="95" hits="0" branch="false" />
+                <line number="96" hits="0" branch="false" />
+                <line number="97" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="98" hits="0" branch="false" />
+                <line number="99" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="100" hits="0" branch="false" />
+                <line number="101" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="102" hits="0" branch="false" />
+                <line number="103" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="104" hits="0" branch="false" />
+                <line number="106" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="107" hits="0" branch="false" />
+                <line number="109" hits="0" branch="false" />
+                <line number="110" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="111" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="112" hits="0" branch="false" />
+                <line number="113" hits="0" branch="false" />
+                <line number="115" hits="0" branch="false" />
+                <line number="116" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="40" hits="0" branch="false" />
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="43" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="30" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="43" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="64" hits="0" branch="false" />
+            <line number="65" hits="0" branch="false" />
+            <line number="66" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="67" hits="0" branch="false" />
+            <line number="68" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="69" hits="0" branch="false" />
+            <line number="70" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="71" hits="0" branch="false" />
+            <line number="72" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="73" hits="0" branch="false" />
+            <line number="75" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="76" hits="0" branch="false" />
+            <line number="78" hits="0" branch="false" />
+            <line number="79" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="80" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="81" hits="0" branch="false" />
+            <line number="82" hits="0" branch="false" />
+            <line number="84" hits="0" branch="false" />
+            <line number="85" hits="0" branch="false" />
+            <line number="88" hits="0" branch="false" />
+            <line number="95" hits="0" branch="false" />
+            <line number="96" hits="0" branch="false" />
+            <line number="97" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="98" hits="0" branch="false" />
+            <line number="99" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="100" hits="0" branch="false" />
+            <line number="101" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="102" hits="0" branch="false" />
+            <line number="103" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="104" hits="0" branch="false" />
+            <line number="106" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="107" hits="0" branch="false" />
+            <line number="109" hits="0" branch="false" />
+            <line number="110" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="111" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="112" hits="0" branch="false" />
+            <line number="113" hits="0" branch="false" />
+            <line number="115" hits="0" branch="false" />
+            <line number="116" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Kupid.Recenzija" filename="C:\Users\adisa\source\repos\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\Grupa 6\Kupid\Kupid\Recenzija.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="DajUtisak" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="KupidTest" line-rate="0.9444444444444444" branch-rate="1" complexity="5">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\adisa\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="KupidTest.Tests" filename="C:\Users\adisa\source\repos\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-opo\Grupa 6\Kupid\KupidTest\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Test" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="22" hits="20002" branch="true" condition-coverage="100% (2/2)" />
+                <line number="23" hits="10000" branch="false" />
+                <line number="24" hits="10000" branch="false" />
+                <line number="25" hits="10000" branch="false" />
+                <line number="27" hits="10000" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="30" hits="20002" branch="true" condition-coverage="100% (2/2)" />
+                <line number="31" hits="10000" branch="false" />
+                <line number="32" hits="10000" branch="false" />
+                <line number="33" hits="10000" branch="false" />
+                <line number="35" hits="10000" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="22" hits="20002" branch="true" condition-coverage="100% (2/2)" />
+            <line number="23" hits="10000" branch="false" />
+            <line number="24" hits="10000" branch="false" />
+            <line number="25" hits="10000" branch="false" />
+            <line number="27" hits="10000" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="30" hits="20002" branch="true" condition-coverage="100% (2/2)" />
+            <line number="31" hits="10000" branch="false" />
+            <line number="32" hits="10000" branch="false" />
+            <line number="33" hits="10000" branch="false" />
+            <line number="35" hits="10000" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

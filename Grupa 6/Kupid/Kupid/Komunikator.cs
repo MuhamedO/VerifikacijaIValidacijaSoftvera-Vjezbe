@@ -46,10 +46,7 @@ namespace Kupid
                 Korisnik postojeci = null;
                 foreach (Korisnik korisnik in korisnici)
                     if (korisnik.Ime == k.Ime)
-                        postojeci = korisnik;
-
-                if (postojeci != null)
-                    throw new InvalidOperationException("Korisnik već postoji!");
+                        throw new InvalidOperationException("Korisnik već postoji!");
 
                 korisnici.Add(k);
             }
@@ -58,7 +55,11 @@ namespace Kupid
                 Korisnik postojeci = null;
                 foreach (Korisnik korisnik in korisnici)
                     if (korisnik.Ime == k.Ime)
+                    {
                         postojeci = korisnik;
+                        break;
+                    }
+                        
 
                 if (postojeci == null)
                     throw new InvalidOperationException("Korisnik ne postoji!");
@@ -95,6 +96,18 @@ namespace Kupid
                 razgovori.Add(new Chat(korisnici[0], korisnici[1]));
         }
 
+        public void DodavanjeRazgovora2(List<Korisnik> korisnici, bool grupniChat)
+        {
+            bool nijeGrupniSaViseOddvijeOsobe = !grupniChat && korisnici.Count > 2;
+            if (korisnici == null || korisnici.Count < 2 || nijeGrupniSaViseOddvijeOsobe)
+                throw new ArgumentException("Nemoguće dodati razgovor!");
+
+            if (grupniChat)
+                razgovori.Add(new GrupniChat(korisnici));
+
+            else
+                razgovori.Add(new Chat(korisnici[0], korisnici[1]));
+        }
         /// <summary>
         /// Metoda u kojoj se vrši pronalazak svih poruka koje u sebi sadrže traženi sadržaj.
         /// Ukoliko je sadržaj prazan ili ne postoji nijedan chat, baca se izuzetak.
