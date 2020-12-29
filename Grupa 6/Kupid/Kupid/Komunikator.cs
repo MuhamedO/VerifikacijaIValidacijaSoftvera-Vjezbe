@@ -58,7 +58,11 @@ namespace Kupid
                 Korisnik postojeci = null;
                 foreach (Korisnik korisnik in korisnici)
                     if (korisnik.Ime == k.Ime)
+                    {
                         postojeci = korisnik;
+                        break;
+                    }
+                        
 
                 if (postojeci == null)
                     throw new InvalidOperationException("Korisnik ne postoji!");
